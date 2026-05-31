@@ -10,5 +10,6 @@ CHIP And {
     OUT out;
     
     PARTS:
-    //// Replace this comment with your code.
+    Nand(a= a, b= b, out= m);
+    Nand(a= m, b= true, out= out);
 }
