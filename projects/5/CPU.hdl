@@ -72,14 +72,4 @@ CHIP CPU {
 
     PC(in= Aout, load= Jump, inc= true, reset= reset, out[0..14]= pc);
 
-
-
-
-
-
-
-
-
-
-
 }

@@ -24,5 +24,10 @@ CHIP Memory {
     OUT out[16];
 
     PARTS:
-	//// Replace this comment with your code.
+	
+
+    RAM16K(in= , load= , address= , out= );
+    RAM
+
+
 }
